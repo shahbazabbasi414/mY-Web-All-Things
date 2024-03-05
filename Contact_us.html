@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everything</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">EveryThing</a>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="My_project.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="suport.html">Support</a></li>
+                    <li><a href="contact_us.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <button class="Hire-Me" type="button"><a href="../picture/shahbaz Riaz CV.pdf" download="shahbaz Riaz CV.pdf">Download CV</a></button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="banner-image">
+            <p class="banner-tex">Please <br /><span class="br_white">CONTACT</span> <br>Us</p>
+        </div>
+        <div class="Contact-Us">
+            <!-- Corrected class name -->
+            <div class="ALL_box">
+                <div class="box1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti velit porro quisquam aspernatur aliquam libero ea laudantium soluta voluptates autem!</p>
+                </div>
+                <div class="box2">
+                    <p>Name: Shahbaz Riaz <br> Contact Number: +92 xxx xx xx xxx <br> Address: Commercial Market, Commercial Market Rd, Block B, Satellite Town, Block B Satellite Town, Rawalpindi</p>
+                </div>
+                <div class="box1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti velit porro quisquam aspernatur aliquam libero ea laudantium soluta voluptates autem!</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <form action="/action_page.php">
+                <h1 class="headding_contact_us">Contact Us</h1>
+                <label class="detail" for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label class="detail" for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label class="detail" for="country">Country</label>
+                <select id="country" name="country">
+                <option class="country_name" value="australia">Australia</option>
+                <option class="country_name" value="canada">Canada</option>
+                <option class="country_name" value="usa">USA</option>
+              </select>
+
+                <label class="detail" for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_column">
+                <img src="../picture/free logo maker 2.webp" alt="">
+                <img src="../picture/Disnep.png" alt="">
+                <h3>Our Partner</h3>
+                <!-- Corrected spelling -->
+            </div>
+            <div class="vl"></div>
+            <div class="footer_column">
+                <h3>Every Thing</h3>
+                <a href="index.html">Home</a>
+                <a href="My_project.html">Projects</a>
+                <a href="about.html">About</a>
+                <a href="suport.html">Support</a>
+                <a href="contact_us.html">Contact</a>
+            </div>
+            <div class="vl"></div>
+            <div class="footer_column">
+                <h3>Recent Projects</h3>
+                <a href="myntra_Clone.html">Myntra Clone</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
